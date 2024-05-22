@@ -1,7 +1,7 @@
 <x-guest-layout>
     <x-authentication-card>
         <x-slot name="logo">
-            <img src="assets/img/astipel.png" alt="Logo Perusahaan" style="width: 70px; height: 70px;">
+            <img src="{{ asset('assets/img/astipel.png') }}" alt="Logo Perusahaan" style="width: 70px; height: 70px;">
         </x-slot>
         {{-- <img src="assets/img/astipel.png" alt="Logo Perusahaan" class="logo"> --}}
         {{-- <x-slot name="logo">
